@@ -1,7 +1,7 @@
 # Begin with a minimal Alpine Linux Python 3.7.3 container, which is the
 # same version we used for our development.
-FROM python:3.7.3-alpine
-LABEL maintainer="njrusmc@gmail.com"
+FROM python:3.8.5-alpine
+LABEL maintainer="edson.araujo@opensea.us"
 
 # Shell commands to execute after basic Python 3.7 container
 # is deployed. We only need to install flask for this app.
